@@ -1,5 +1,8 @@
 .DS_Store
 .eslintcache
-dist
+esm
+umd
+lib
+index.js
 node_modules
 npm-debug.log

@@ -28,7 +28,7 @@ export default [
         ...base,
         output: {
             file: packageJson.module,
-            format: "esm"
+            format: "es"
         }
     }
 ]

@@ -1,26 +1,38 @@
-interface Size {
-    width: number;
-    height: number;
-    viewBox: {
-        width: number;
-        height: number;
-    };
-}
+import React from "react";
+import { StyledComponent } from "styled-components";
 
-export interface ColourTheme {
-    stroke: string;
-    mask: string;
-    rear: string;
-}
 
-export interface Props {
-    id: string;
-    maxScore?: number;
-    clickable?: boolean;
-    width?: number;
-    rating?: number;
-    colors?: Partial<ColourTheme>;
-    numberOfStar?: number;
-    strokeWidth?: number;
-    onRatingChange?: (rating: number) => void;
+export = RatingStar;
+export as namespace RatingStar;
+
+declare namespace RatingStar {
+
+    interface ColourTheme {
+        stroke: string;
+        mask: string;
+        rear: string;
+    }
+
+    interface RatingStarProps {
+        id: string;
+        clickable?: boolean;
+        noBorder?: boolean;
+        size?: number;
+        maxScore?: number;
+        rating?: number;
+        numberOfStar?: number;
+        colors?: Partial<ColourTheme>;
+        onRatingChange?: (rating: number) => void;
+    }
+
+    type RatingStar = React.FC<RatingStarProps>;
+
+    type RatingStarContainer = StyledComponent<"div", any, {}, never>;
+
+
+    interface RatingStarIconsWrapperProps {
+        clickable: boolean
+    }
+    type RatingStarIconsWrapper = StyledComponent<"div", any, RatingStarIconsWrapperProps, never>;
+
 }
