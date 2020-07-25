@@ -1,6 +1,6 @@
 import { createContext } from "react";
 
-import { ColourTheme } from "..";
+import { ColourTheme } from "../types/RatingStar";
 
 interface ContextProps {
     id: string;

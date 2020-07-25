@@ -1,9 +1,10 @@
 {
   "name": "rating-star",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "React rating star merely using SVG + CSS",
-  "main": "./index.js",
-  "module": "./esm/index.js",
+  "main": "./lib/RatingStar.js",
+  "module": "./esm/RatingStar.js",
+  "types": "./types/RatingStar.d.ts",
   "repository": "https://github.com/samsan1212/react-rating-star.git",
   "author": "Sam Chan <samchan148@gmail.com>",
   "license": "MIT",

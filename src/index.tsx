@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from 'prop-types';
-import { RatingStarProps } from "../index"
+import { RatingStarProps } from "../types/RatingStar"
 import { toColourTheme, toOffsets, RangeArray } from "./utils";
 import Context from "./context";
 

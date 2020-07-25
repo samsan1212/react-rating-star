@@ -1,4 +1,4 @@
-import { ColourTheme } from "..";
+import { ColourTheme } from "../types/RatingStar";
 
 export function RangeArray(len: number) {
     return Array.apply(null, new Array(len)).map((n, index) => index);

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { RatingStarIconsWrapperProps } from "..";
+import { RatingStarIconsWrapperProps } from "../types/RatingStar";
 
 export const Container = styled.div`
     display: inline-block;

@@ -2,10 +2,10 @@ import React from "react";
 import { StyledComponent } from "styled-components";
 
 
-export = RatingStar;
-export as namespace RatingStar;
+export = RatingStarModule;
+export as namespace RatingStarModule;
 
-declare namespace RatingStar {
+declare namespace RatingStarModule {
 
     interface ColourTheme {
         stroke: string;
@@ -25,14 +25,14 @@ declare namespace RatingStar {
         onRatingChange?: (rating: number) => void;
     }
 
-    type RatingStar = React.FC<RatingStarProps>;
+    var RatingStar: React.FC<RatingStarProps>;
 
-    type RatingStarContainer = StyledComponent<"div", any, {}, never>;
+    var RatingStarContainer: StyledComponent<"div", any, {}, never>;
 
 
     interface RatingStarIconsWrapperProps {
         clickable: boolean
     }
-    type RatingStarIconsWrapper = StyledComponent<"div", any, RatingStarIconsWrapperProps, never>;
+    var RatingStarIconsWrapper: StyledComponent<"div", any, RatingStarIconsWrapperProps, never>;
 
 }
