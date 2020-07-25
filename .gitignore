@@ -1,0 +1,8 @@
+.DS_Store
+.eslintcache
+esm
+umd
+lib
+index.js
+node_modules
+npm-debug.log

@@ -1,0 +1,46 @@
+{
+  "name": "rating-star",
+  "version": "0.0.5",
+  "description": "React rating star merely using SVG + CSS",
+  "main": "./index.js",
+  "module": "./esm/index.js",
+  "repository": "https://github.com/samsan1212/react-rating-star.git",
+  "author": "Sam Chan <samchan148@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "keywords": [
+    "react-rating-star",
+    "rating-star-react",
+    "rating-star",
+    "rating",
+    "star",
+    "react"
+  ],
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react-is": "^16.13.1",
+    "styled-components": "^5.1.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^8.4.0",
+    "@rollup/plugin-typescript": "^5.0.2",
+    "@types/react": "16.8",
+    "@types/react-dom": "16.8",
+    "@types/styled-components": "^5.1.1",
+    "react": "16.8.0",
+    "react-dom": "16.8.0",
+    "rollup": "^2.23.0",
+    "tslib": "^2.0.0",
+    "typescript": "^3.9.7"
+  },
+  "resolutions": {
+    "styled-components": "^5"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  }
+}
