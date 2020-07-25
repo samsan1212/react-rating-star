@@ -15,7 +15,7 @@ export function toColourTheme(val: Partial<ColourTheme>): ColourTheme {
 export function toOffsets(rating: number, scorePerStar: number) {
     const starArray = [];
     const numOfFullStar = Math.floor(rating / scorePerStar);
-    const remainder = rating % scorePerStar;
+    const remainder = rating - numOfFullStar * scorePerStar;
     for (var i = 0; i < numOfFullStar; i++) {
         starArray.push(1);
     }

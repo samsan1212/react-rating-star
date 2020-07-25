@@ -10,5 +10,5 @@ export const IconsWrapper = styled.div<RatingStarIconsWrapperProps>`
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor: ${props => props.clickable ? "cursor" : "default"};
+    cursor: ${props => props.clickable ? "pointer" : "default"};
 `;
