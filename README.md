@@ -51,17 +51,17 @@ For more details, can go to [Demos](#demos).
 
 ## Props ##
 
-| Name                        | Description                                      |
-| --------------------------- | ------------------------------------------------ |
-| `id`                        | the element id                                   |
-| `clickable` (optional)      | enable click for the ratings, e.g. onClick       |
-| `noBorder` (optional)       | disable borders of the star icon                 |
-| `size` (optional)           | icon size                                        |
-| `maxScore` (optional)       | the maximum score of the ratings, default is `5` |
-| `rating` (optional)         | the current score                                |
-| `numberOfStar` (optional)   | total number of star icons                       |
-| `colors` (optional)         | colours of the star icon                         |
-| `onRatingChange` (optional) | a callback of `rating` changes                   |
+| Name                        | Description                                          |
+| --------------------------- | ---------------------------------------------------- |
+| `id`                        | the element id                                       |
+| `clickable` (optional)      | enable click for the ratings, default is `false`     |
+| `noBorder` (optional)       | disable borders of the star icon, default is `false` |
+| `size` (optional)           | icon size, default is `24`                           |
+| `maxScore` (optional)       | the maximum score of the ratings, default is `5`     |
+| `rating` (optional)         | the current score, default is `0`                    |
+| `numberOfStar` (optional)   | total number of star icons, default is `5`           |
+| `colors` (optional)         | colours of the star icon                             |
+| `onRatingChange` (optional) | a callback of `rating` changes                       |
 
 ### Prop Types ###
 

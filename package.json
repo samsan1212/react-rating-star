@@ -1,6 +1,6 @@
 {
   "name": "rating-star",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "description": "React rating star merely using SVG + CSS",
   "main": "./lib/RatingStar.js",
   "module": "./esm/RatingStar.js",
