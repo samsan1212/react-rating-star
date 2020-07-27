@@ -114,4 +114,9 @@ const YourStyledComponent = styled.div`
 
 ## Demos ##
 
-coming soon...
+* [Fixed rating](https://codesandbox.io/s/fixed-rating-fjjm8)
+* [Controlled rating](https://codesandbox.io/s/controlled-rating-hlmmb)
+* [Customising the style](https://codesandbox.io/s/customising-the-style-qi24u)
+* [Using different maximum score](https://codesandbox.io/s/using-different-maximum-score-95krf)
+* [Using different number of star](https://codesandbox.io/s/using-different-number-of-star-h67fy)
+* [Using with `styled-components`](https://codesandbox.io/s/using-with-styled-components-dqvii)
