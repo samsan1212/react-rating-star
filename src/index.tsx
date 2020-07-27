@@ -35,6 +35,10 @@ export const RatingStar: React.FC<RatingStarProps> = ({
     }, [rating, scorePerStar])
     const onMouseLeaveSvg = React.useCallback(() => { setOffsets(toOffsets(rating, scorePerStar)); }, [rating, scorePerStar])
 
+    React.useEffect(() => {
+        setOffsets(toOffsets(rating, scorePerStar));
+    }, [rating, scorePerStar])
+
     return (
         <Context.Provider value={{ id, colours, offsets, size, noBorder }}>
             <Container id={id} className="rating-star">
