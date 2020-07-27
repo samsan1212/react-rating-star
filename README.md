@@ -2,7 +2,7 @@
 
 Rating Star UI Component powered by ReactJS
 
-[![npm](https://img.shields.io/npm/v/rating-star)](https://www.npmjs.com/package/rating-star)
+[![npm](https://img.shields.io/npm/v/rating-star?color=%23ffb100&style=flat-square)](https://www.npmjs.com/package/rating-star)
 
 ## Installation ##
 
@@ -14,19 +14,23 @@ npm i rating-star
 yarn add rating-star
 ```
 
+## Prerequisite ##
+
+The version of React has to be **16.8.0** or above.
+
 ## Props ##
 
-| Name | Description |
-|--|--|
-| `id` | the element id |
-| `clickable` (optional) | enable click for the ratings, e.g. onClick |
-| `noBorder` (optional) | disable borders of the star icon |
-| `size` (optional) | icon size |
-| `maxScore` (optional) | the maximum score of the ratings, e.g. 5 |
-| `rating` (optional) | the current score |
-| `numberOfStar` (optional) | total number of star icons |
-| `colors` (optional) | colours of the star icon |
-| `onRatingChange` (optional) | a callback of `rating` changes |
+| Name                        | Description                                |
+| --------------------------- | ------------------------------------------ |
+| `id`                        | the element id                             |
+| `clickable` (optional)      | enable click for the ratings, e.g. onClick |
+| `noBorder` (optional)       | disable borders of the star icon           |
+| `size` (optional)           | icon size                                  |
+| `maxScore` (optional)       | the maximum score of the ratings, e.g. 5   |
+| `rating` (optional)         | the current score                          |
+| `numberOfStar` (optional)   | total number of star icons                 |
+| `colors` (optional)         | colours of the star icon                   |
+| `onRatingChange` (optional) | a callback of `rating` changes             |
 
 ### Prop Types ###
 
@@ -76,3 +80,5 @@ const YourStyledComponent = styled.div`
     }
 `;
 ```
+
+<!-- ## Demos ## -->
