@@ -1,6 +1,6 @@
 {
   "name": "rating-star",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "React rating star merely using SVG + CSS",
   "main": "./lib/RatingStar.js",
   "module": "./esm/RatingStar.js",
@@ -35,11 +35,11 @@
     "react": "16.8.0",
     "react-dom": "16.8.0",
     "rollup": "^2.23.0",
-    "tslib": "^2.0.0",
-    "typescript": "^3.9.7"
+    "tslib": "^2.1.0",
+    "typescript": "^4.1.3"
   },
   "resolutions": {
-    "styled-components": "^5"
+    "styled-components": "^4"
   },
   "scripts": {
     "build": "rollup -c"
